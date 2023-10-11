@@ -58,6 +58,7 @@ function CreatePodcastForm(){
                     setDesc("");
                     setBannerImg(null);
                     setDisplayImg(null);
+                    navigate("/podcasts");
                    
                     toast.success("Podcast Created");
                     setLoading(false);
